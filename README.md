@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Title: Unit Converter
 
-## Getting Started
+Description:
+This Unit Converter application allows users to easily convert values between various measurement units, including length, weight, and volume. Designed with a user-friendly interface, the app provides an intuitive way to handle conversions efficiently.
 
-First, run the development server:
+Functionalities:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Input Fields: Users can enter a numeric value that they wish to convert.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Unit Selection: A dropdown menu allows users to select the unit they are converting from and the unit they want to convert to, covering a wide range of categories (length, weight, and volume).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Conversion Logic: Once the input value and units are selected, clicking the "Convert" button triggers the conversion process, and the result is displayed in real time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dynamic Output: The converted value is shown in a clear format, with the corresponding unit, making it easy for users to read and understand the results.
 
-## Learn More
+Technologies Used:
 
-To learn more about Next.js, take a look at the following resources:
+React: For building the user interface and managing state.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS: For styling and ensuring a responsive design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TypeScript: For type safety and improved developer experience.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is part of a 30-day initiative organized by the Governor IT Program, aiming to enhance practical programming skills and application development. The Unit Converter exemplifies fundamental concepts in user interface design, state management, and unit conversion logic, making it an essential addition to my project portfolio.
